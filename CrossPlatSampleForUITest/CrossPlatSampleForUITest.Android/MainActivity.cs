@@ -12,6 +12,7 @@ namespace CrossPlatSampleForUITest.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            //Useless Comment
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
