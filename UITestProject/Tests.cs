@@ -7,6 +7,7 @@ using Xamarin.UITest.Queries;
 
 namespace UITestProject
 {
+
     [TestFixture(Platform.Android)]
     [TestFixture(Platform.iOS)]
     public class Tests
@@ -38,6 +39,20 @@ namespace UITestProject
 
             app.Tap(c => c.Marked("tstBtnTest"));
             app.Screenshot("UI TEST Screen");
+
+        }
+
+        [Test]
+        public void UITestScreen2()
+        {
+            //AppResult[] results = app.WaitForElement(c => c.Class
+            //AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
+            //app.Screenshot("Welcome screen.");
+            //Assert.IsTrue(results.Any());
+            //btnMyButton
+
+            app.Tap(c => c.Marked("tstBtnTest"));
+            app.Screenshot("UI TEST Screen 2");
 
         }
     }
