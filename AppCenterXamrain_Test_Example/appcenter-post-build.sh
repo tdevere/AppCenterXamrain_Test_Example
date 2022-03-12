@@ -21,6 +21,6 @@ appcenter test prepare uitest --artifacts-dir /Users/runner/work/1/a/Artifacts -
 echo "cat /Users/runner/work/1/a/Artifacts/manifest.json"
 cat /Users/runner/work/1/a/Artifacts/manifest.json
 
-appcenter test run manifest --manifest-path /Users/runner/work/1/a/Artifacts/manifest.json --app-path /Users/runner/work/1/s/AppCenterXamrain_Test_Example/bin/Debug/com.companyname.appcenterxamrain_test_example.apk --app Examples/Android_Xamarin_UI_Test --devices "Examples/tdevere-device-set-1" --test-series launch-tests --locale en_US -p msft/test-run-origin=Build/Launch --debug --quiet --token $AppCenterTokenForTest
+appcenter test run manifest --manifest-path /Users/runner/work/1/a/Artifacts/manifest.json --app-path /Users/runner/work/1/s/AppCenterXamrain_Test_Example/bin/Debug/com.companyname.appcenterxamrain_test_example.apk --app Examples/Android_Xamarin_UI_Test --devices "Examples/tdevere-device-set-1" --test-series launch-tests --locale en_US -p msft/test-run-origin=Build/Launch --debug --quiet --test-chunk --token $AppCenterTokenForTest
 
 echo "The Post Build Script END"
