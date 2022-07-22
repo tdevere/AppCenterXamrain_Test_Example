@@ -37,7 +37,7 @@ namespace UITestProject
             //Assert.IsTrue(results.Any());
             //btnMyButton
 
-            app.Tap(c => c.Marked("tstBtnTest"));
+            app.Tap(c => c.Marked("btnMyButton"));
             app.Screenshot("UI TEST Screen");
 
         }
@@ -51,7 +51,7 @@ namespace UITestProject
             //Assert.IsTrue(results.Any());
             //btnMyButton
 
-            app.Tap(c => c.Marked("tstBtnTest"));
+            app.Tap(c => c.Marked("btnMyButton"));
             app.Screenshot("UI TEST Screen 2");
 
         }
