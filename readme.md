@@ -48,7 +48,7 @@ Parameters Defined
 --build-dir - the path to the UITestProject Build Directory
 ```
 
-### Start Starts
+### Start Tests
 You should see something similar to this output when the test is starting up
 ```
 Preparing tests... done.
