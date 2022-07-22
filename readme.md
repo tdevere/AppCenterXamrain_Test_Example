@@ -1,17 +1,23 @@
 # AppCenter Xamrain Test Example - UITest for Android
 ## Instructions
+Note: To avoid building the project in VS, use the APK from the "CompliedBinary" folder in this project repo.
 ### Complete the [Getting Started](https://docs.microsoft.com/en-us/appcenter/test-cloud/getting-started) instructions.
-### Clone this project (Written in VS 2022)
-### Create a Device Set in App Center Test
-* New Device Set
-* Select your devices. This sample will only work with Android
-* Give the Device Set a name.
+### Clone this project
+* Clone the project
+* Build the project. This version used VS 2022.
+### Create a Device Set in App Center Test portal
+* [AppCenter Portal](https://appcenter.ms)
+* Navigate to Test on the right hand webpage pane and select "Test runs"
+* Create a New Device Set
+* Select your devices. (This sample will only work with Android)
+* Give the Device Set a name
 * Click "New device set"
 ### Create a Test Series in App Center Test
-* Click the Test Series button via the App Center portal
+* Click the Test Series button via the [AppCenter Portal](https://appcenter.ms)
 * Give the Test Series a name. This sample used "das-examples".
 ### Create a New Test Run
-* Select the device set you created earlier
+* Click New test run button via the [AppCenter Portal](https://appcenter.ms)
+* Select the device set you created earlier 
 * Choose the Test Series you created before
 * Select Xamarin.UITest for Test Framework
 * Install Node.js if not already installed
