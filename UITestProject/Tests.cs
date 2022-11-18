@@ -58,7 +58,6 @@ namespace UITestProject
                     app.Screenshot($"{_XTC_DEVICE}_default");
                     break;
             }
-            
         }
 
         [Test]
