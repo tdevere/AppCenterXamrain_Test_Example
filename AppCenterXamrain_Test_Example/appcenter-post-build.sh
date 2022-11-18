@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-./appcenter-post-build.ps1
+./Users/runner/work/1/s/appcenter-post-build.ps1
