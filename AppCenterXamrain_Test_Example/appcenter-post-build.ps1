@@ -10,3 +10,7 @@
     (Get-Content $projectFile).Replace("Xamarin.UITest.4.0.1", "Xamarin.UITest.3.2.9") | Set-Content $projectFile
     Write-Host "Project File After Change"
     Get-Content $projectFile
+    
+    (Get-Content $packagesFile).Replace('4.0.1','3.2.9') | Set-Content $packagesFile
+    Write-Host "Package File After Change"
+    Get-Content $packagesFile
