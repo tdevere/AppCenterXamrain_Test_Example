@@ -32,12 +32,6 @@ namespace UITestProject
         [Category("Category1")]
         public void UITestScreen()
         {
-            //AppResult[] results = app.WaitForElement(c => c.Class
-            //AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-            //app.Screenshot("Welcome screen.");
-            //Assert.IsTrue(results.Any());
-            //btnMyButton
-
             app.Tap(c => c.Marked("btnMyButton"));
             app.Screenshot("UI TEST Screen");
 
@@ -47,12 +41,6 @@ namespace UITestProject
         [Category("Category2")]
         public void UITestScreen2()
         {
-            //AppResult[] results = app.WaitForElement(c => c.Class
-            //AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-            //app.Screenshot("Welcome screen.");
-            //Assert.IsTrue(results.Any());
-            //btnMyButton
-
             app.Tap(c => c.Marked("btnMyButton"));
             app.Screenshot("UI TEST Screen 2");
 
