@@ -7,7 +7,6 @@ using Xamarin.UITest.Queries;
 
 namespace UITestProject
 {
-
     [TestFixture(Platform.Android)]
     [TestFixture(Platform.iOS)]
     public class Tests
@@ -23,9 +22,7 @@ namespace UITestProject
         [SetUp]
         public void BeforeEachTest()
         {
-            app = AppInitializer.StartApp(platform);
-
-            
+            app = AppInitializer.StartApp(platform);            
         }
 
         [Test]
