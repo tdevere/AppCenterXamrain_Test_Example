@@ -29,6 +29,7 @@ namespace UITestProject
         }
 
         [Test]
+        [Category("Category1")]
         public void UITestScreen()
         {
             //AppResult[] results = app.WaitForElement(c => c.Class
@@ -43,6 +44,7 @@ namespace UITestProject
         }
 
         [Test]
+        [Category("Category2")]
         public void UITestScreen2()
         {
             //AppResult[] results = app.WaitForElement(c => c.Class
